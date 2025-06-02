@@ -104,3 +104,16 @@ function renderSetBubbles() {
     });
   });
 }
+
+document.getElementById("parallel-select").addEventListener("change", () => {
+  const selectedParallel = document.getElementById("parallel-select").value;
+
+  if (!selectedParallel || selectedParallel === "All Parallels") {
+    renderCards(currentData);
+  } else {
+    const filtered = currentData.filter(card => {
+      return card["Parallel"] && card["Parallel"].toLowerCase() === selectedParallel.toLowerCase();
+    });
+    renderCards(filtered);
+  }
+});
