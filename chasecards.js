@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", async function loadAndRenderChaseC
               <div class="absolute top-2 right-2 z-10 text-[11px] font-semibold tracking-wide uppercase 
                 bg-gradient-to-r from-red-600 to-red-700 text-white px-2.5 py-0.5 rounded-full 
                 shadow-md ring-1 ring-white/10 animate-pulse ring-2 ring-red-500/50">1/1 Live</div>
-              <img src="${card["Image"] || "https://images.squarespace-cdn.com/content/v1/682caef5d585c85a6f7dcd3e/eeed5de3-4f76-4f70-9b6a-8d9d591b0a45/placeholder.jpg"}"
+              <img src="${card["Image"] || "https://images.squarespace-cdn.com/content/682caef5d585c85a6f7dcd3e/8c0891cf-f977-4068-9d57-9f2dcb1b59b7/IMG_1263-2-2.jpg?content-type=image%2Fjpeg"}"
                 alt="Chase Card Image"
                 class="w-full h-48 object-cover border-t border-b border-white/10" />
               <div class="text-xs text-white/80 px-4 pt-2 pb-0 truncate">
@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", async function loadAndRenderChaseC
             <div class="absolute top-2 right-2 z-10 text-[11px] font-semibold tracking-wide uppercase 
               bg-gradient-to-r from-red-600 to-red-700 text-white px-2.5 py-0.5 rounded-full 
               shadow-md ring-1 ring-white/10 animate-pulse ring-2 ring-red-500/50">1/1 Live</div>
-            <img src="${card["Image"] || "https://images.squarespace-cdn.com/content/v1/682caef5d585c85a6f7dcd3e/eeed5de3-4f76-4f70-9b6a-8d9d591b0a45/placeholder.jpg"}"
+            <img src="${card["Image"] || "https://images.squarespace-cdn.com/content/682caef5d585c85a6f7dcd3e/cbcd1183-00cc-44ea-b478-77ecb3f8f55f/IMG_12632-2.jpg?content-type=image%2Fjpeg"}"
               alt="Chase Card Image"
               class="w-full h-48 object-cover border-t border-b border-white/10" />
             <div class="text-xs text-white/80 px-4 pt-2 pb-0 truncate">
